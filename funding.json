@@ -8,36 +8,32 @@
     "phone": "",
     "description": "Glific is an open source platform built to cater to the needs of the social sector, enabling two-way communication.\n\nIts a Project Tech4Dev initiative, WhatsApp based chatbot, that boosts the reach and impact for NGOs.\n\nPS: This is a dummy listing.",
     "webpageUrl": {
-      "url": "https://glific.org",
-      "wellKnown": ""
+      "url": "https://projecttech4dev.org",
+      "wellKnown": "https://projecttech4dev.org/.well-known/funding-manifest-urls"
     }
   },
   "projects": [
     {
-      "guid": "glific-frontend",
-      "name": "Glific frontend",
+      "guid": "glific",
+      "name": "Glific",
       "description": "Glific is an open source platform built to cater to the needs of the social sector, enabling two-way communication.\n\nIts a Project Tech4Dev initiative, WhatsApp based chatbot.\n\n",
       "webpageUrl": {
-        "url": "https://prod.glific.com"
+        "url": "https://glific.org",
+        "wellKnown": "https://glific.org/.well-known/funding-manifest-urls"
       },
       "repositoryUrl": {
-        "url": "https://github.com/glific/glific-frontend"
+        "url": "https://github.com/glific"
       },
       "licenses": ["GNU:AGPL-3.0"],
-      "tags": ["frontend", "react", "webapp", "flow-editor"]
-    },
-    {
-      "guid": "glific-backend",
-      "name": "Glific backend",
-      "description": "Glific is an open source platform built to cater to the needs of the social sector, enabling two-way communication.\n\nIts a Project Tech4Dev initiative, WhatsApp based chatbot.\n\n",
-      "webpageUrl": {
-        "url": "https://api.prod.glific.com"
-      },
-      "repositoryUrl": {
-        "url": "https://github.com/glific/glific"
-      },
-      "licenses": ["GNU:AGPL-3.0"],
-      "tags": ["chatbot", "security", "backend", "integration"]
+      "tags": [
+        "chatbot",
+        "react",
+        "elixir",
+        "flow-editor",
+        "typescript",
+        "communication",
+        "non-profit"
+      ]
     }
   ],
   "funding": {
@@ -58,7 +54,7 @@
         "amount": 250,
         "currency": "USD",
         "frequency": "monthly",
-        "channels": ["mypay"]
+        "channels": ["mybank"]
       },
       {
         "guid": "developer-time",
@@ -78,7 +74,7 @@
         "amount": 0,
         "currency": "USD",
         "frequency": "one-time",
-        "channels": ["mybank", "mypay"]
+        "channels": ["mybank"]
       }
     ],
     "history": [
