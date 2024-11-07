@@ -1,90 +1,119 @@
 {
-    "version": "v1.0.0",
-    "entity": {
-        "type": "team",
-        "role": "platform",
-        "name": "Glific",
-        "email": "radhika@projecttech4dev.org",
-        "phone": "",
-        "description": "Glific is an open source platform built to cater to the needs of the social sector, enabling two-way communication.\n\nIts a Project Tech4Dev initiative, WhatsApp based chatbot, that boosts the reach and impact for NGOs.\n\nPS: This is a dummy listing.",
-        "webpageUrl": {
-            "url": "https://glific.org/",
-            "wellKnown": ""
-        }
-    },
-    "projects": [{
-        "guid": "glific-frontend",
-        "name": "Glific frontend",
-        "description": "Glific is an open source platform built to cater to the needs of the social sector, enabling two-way communication.\n\nIts a Project Tech4Dev initiative, WhatsApp based chatbot.\n\n",
-        "webpageUrl": {
-            "url": "https://prod.glific.com/login"
-        },
-        "repositoryUrl": {
-            "url": "https://github.com/glific/glific-frontend/tree/master"
-        },
-        "licenses": ["GNU:AGPL-3.0"],
-        "tags": ["frontend", "react", "webapp", "flow-editor"]
+  "version": "v1.0.0",
+  "entity": {
+    "type": "organisation",
+    "role": "maintainer",
+    "name": "Glific",
+    "email": "radhika@projecttech4dev.org",
+    "phone": "",
+    "description": "Glific is an open source platform built to cater to the needs of the social sector, enabling two-way communication.\n\nIts a Project Tech4Dev initiative, WhatsApp based chatbot, that boosts the reach and impact for NGOs.\n\nPS: This is a dummy listing.",
+    "webpageUrl": {
+      "url": "https://glific.org",
+      "wellKnown": ""
+    }
+  },
+  "projects": [
+    {
+      "guid": "glific-frontend",
+      "name": "Glific frontend",
+      "description": "Glific is an open source platform built to cater to the needs of the social sector, enabling two-way communication.\n\nIts a Project Tech4Dev initiative, WhatsApp based chatbot.\n\n",
+      "webpageUrl": {
+        "url": "https://prod.glific.com/login"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/glific/glific-frontend/tree/master"
+      },
+      "licenses": ["GNU:AGPL-3.0"],
+      "tags": ["frontend", "react", "webapp", "flow-editor"]
     },
     {
-        "guid": "glific-backend",
-        "name": "Glific backend",
-        "description": "Glific is an open source platform built to cater to the needs of the social sector, enabling two-way communication.\n\nIts a Project Tech4Dev initiative, WhatsApp based chatbot.\n\n",
-        "webpageUrl": {
-            "url": "https://api.prod.glific.com/oban"
-        },
-        "repositoryUrl": {
-            "url": "https://github.com/glific/glific/tree/master",
-        },
-        "licenses": ["GNU:AGPL-3.0"],
-        "tags": ["chatbot", "security", "backend", "integration"]
-    }],
-    "funding": {
-        "channels": [
-            {
-                "guid": "mybank",
-                "type": "bank",
-                "address": "",
-                "description": "Will accept direct bank transfers. Please e-mail me for details."
-            }
-        ],
-        "plans": [
-            {
-                "guid": "hosting-monthly",
-                "status": "active",
-                "name": "Hosting support",
-                "description": "This will cover the monthly server hosting costs for the projects.",
-                "amount": 250,
-                "currency": "USD",
-                "frequency": "monthly",
-                "channels": ["mypay"]
-            },
-            {
-                "guid": "developer-time",
-                "status": "active",
-                "name": "Developer compensation",
-                "description": "This will cover the cost of one developer working part-time on the projects.",
-                "amount": 1000,
-                "currency": "USD",
-                "frequency": "monthly",
-                "channels": ["mybank"]
-            },
-            {
-                "guid": "angel-plan",
-                "status": "active",
-                "name": "Goodwill plan",
-                "description": "Pay anything you wish to show your goodwill for the project.",
-                "amount": 0,
-                "currency": "USD",
-                "frequency": "one-time",
-                "channels": ["mybank", "mypay"]
-            }
-        ],
-        "history": [
-            {"year": 2020, "income": 10000, "expenses": 2000, "taxes": 200, "currency": "USD", "description": "Started accepting donations for the first time."},
-            {"year": 2021, "income": 15000, "expenses": 5000, "taxes": 500, "currency": "USD", "description": ""},
-            {"year": 2022, "income": 30000, "expenses": 10000, "taxes": 2000, "currency": "USD", "description": ""},
-            {"year": 2023, "income": 25000, "expenses": 15000, "taxes": 1500, "currency": "USD", "description": "There was a dip, but we see this improving."}
-        ]
+      "guid": "glific-backend",
+      "name": "Glific backend",
+      "description": "Glific is an open source platform built to cater to the needs of the social sector, enabling two-way communication.\n\nIts a Project Tech4Dev initiative, WhatsApp based chatbot.\n\n",
+      "webpageUrl": {
+        "url": "https://api.prod.glific.com/oban"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/glific/glific/tree/master"
+      },
+      "licenses": ["GNU:AGPL-3.0"],
+      "tags": ["chatbot", "security", "backend", "integration"]
     }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "mybank",
+        "type": "bank",
+        "address": "",
+        "description": "Will accept direct bank transfers. Please e-mail me for details."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "hosting-monthly",
+        "status": "active",
+        "name": "Hosting support",
+        "description": "This will cover the monthly server hosting costs for the projects.",
+        "amount": 250,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": ["mypay"]
+      },
+      {
+        "guid": "developer-time",
+        "status": "active",
+        "name": "Developer compensation",
+        "description": "This will cover the cost of one developer working part-time on the projects.",
+        "amount": 1000,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": ["mybank"]
+      },
+      {
+        "guid": "angel-plan",
+        "status": "active",
+        "name": "Goodwill plan",
+        "description": "Pay anything you wish to show your goodwill for the project.",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": ["mybank", "mypay"]
+      }
+    ],
+    "history": [
+      {
+        "year": 2020,
+        "income": 10000,
+        "expenses": 2000,
+        "taxes": 200,
+        "currency": "USD",
+        "description": "Started accepting donations for the first time."
+      },
+      {
+        "year": 2021,
+        "income": 15000,
+        "expenses": 5000,
+        "taxes": 500,
+        "currency": "USD",
+        "description": ""
+      },
+      {
+        "year": 2022,
+        "income": 30000,
+        "expenses": 10000,
+        "taxes": 2000,
+        "currency": "USD",
+        "description": ""
+      },
+      {
+        "year": 2023,
+        "income": 25000,
+        "expenses": 15000,
+        "taxes": 1500,
+        "currency": "USD",
+        "description": "There was a dip, but we see this improving."
+      }
+    ]
+  }
 }
-
