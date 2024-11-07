@@ -54,7 +54,7 @@
         "amount": 250,
         "currency": "USD",
         "frequency": "monthly",
-        "channels": ["mypay"]
+        "channels": ["mybank"]
       },
       {
         "guid": "developer-time",
@@ -74,7 +74,7 @@
         "amount": 0,
         "currency": "USD",
         "frequency": "one-time",
-        "channels": ["mybank", "mypay"]
+        "channels": ["mybank"]
       }
     ],
     "history": [
