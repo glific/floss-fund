@@ -18,10 +18,10 @@
       "name": "Glific frontend",
       "description": "Glific is an open source platform built to cater to the needs of the social sector, enabling two-way communication.\n\nIts a Project Tech4Dev initiative, WhatsApp based chatbot.\n\n",
       "webpageUrl": {
-        "url": "https://prod.glific.com/login"
+        "url": "https://prod.glific.com"
       },
       "repositoryUrl": {
-        "url": "https://github.com/glific/glific-frontend/tree/master"
+        "url": "https://github.com/glific/glific-frontend"
       },
       "licenses": ["GNU:AGPL-3.0"],
       "tags": ["frontend", "react", "webapp", "flow-editor"]
@@ -31,10 +31,10 @@
       "name": "Glific backend",
       "description": "Glific is an open source platform built to cater to the needs of the social sector, enabling two-way communication.\n\nIts a Project Tech4Dev initiative, WhatsApp based chatbot.\n\n",
       "webpageUrl": {
-        "url": "https://api.prod.glific.com/oban"
+        "url": "https://api.prod.glific.com"
       },
       "repositoryUrl": {
-        "url": "https://github.com/glific/glific/tree/master"
+        "url": "https://github.com/glific/glific"
       },
       "licenses": ["GNU:AGPL-3.0"],
       "tags": ["chatbot", "security", "backend", "integration"]
