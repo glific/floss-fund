@@ -13,32 +13,30 @@
         }
     },
     "projects": [{
-        "guid": "glific-app",
-        "name": "Glific App (demo)",
-        "description": "Glific is an open source platform built to cater to the needs of the social sector, enabling two-way communication.\n\nIts a Project Tech4Dev initiative, WhatsApp based chatbot\n\nPS: This is a dummy demo listing.",
+        "guid": "glific-frontend",
+        "name": "Glific frontend",
+        "description": "Glific is an open source platform built to cater to the needs of the social sector, enabling two-way communication.\n\nIts a Project Tech4Dev initiative, WhatsApp based chatbot.\n\n",
         "webpageUrl": {
-            "url": "https://projecttech4dev.org/glific/"
+            "url": "https://prod.glific.com/login"
         },
         "repositoryUrl": {
-            "url": "https://github.com/glific"
+            "url": "https://github.com/glific/glific-frontend/tree/master"
         },
-        "licenses": ["spdx:AGPL-3.0"],
-        "tags": ["database", "columnar-database", "high-performance", "key-value-store"]
+        "licenses": ["GNU:AGPL-3.0"],
+        "tags": ["frontend", "react", "webapp", "flow-editor"]
     },
     {
-        "guid": "vb-gooey",
-        "name": "VB Gooey IP tracer (demo)",
-        "description": "Using quantum-entangled packet sniffers, this cutting-edge Visual Basic GUI IP Tracer employs hyper-threaded blockchain algorithms to decrypt the target's digital DNA signature. The system's neural network of overclocked RAM crystals generates a real-time holographic map of cyberspace, pinpointing the perp's location with nanosecond precision.\n\nIn addition, its turbo-encabulated flux capacitor and multi-dimensional firewall penetrator, allows any hyper-dimensional air-gapped network to be broken into with ease.\n\n\n\nPS: This is a dummy demo listing.",
+        "guid": "glific-backend",
+        "name": "Glific backend",
+        "description": "Glific is an open source platform built to cater to the needs of the social sector, enabling two-way communication.\n\nIts a Project Tech4Dev initiative, WhatsApp based chatbot.\n\n",
         "webpageUrl": {
-            "url": "https://vb-gooey-ip-tracer.net",
-            "wellKnown": "https://vb-gooey-ip-tracer.net/.well-known/funding-manifest-urls"
+            "url": "https://api.prod.glific.com/oban"
         },
         "repositoryUrl": {
-            "url": "https://github.com/example/vb-gooey-ip-tracer",
-            "wellKnown": "https://github.com/example/vb-gooey-ip-tracer/blob/main/.well-known/funding-manifest-urls"
+            "url": "https://github.com/glific/glific/tree/master",
         },
-        "licenses": ["spdx:MIT"],
-        "tags": ["high-performance", "security", "gui", "networking"]
+        "licenses": ["GNU:AGPL-3.0"],
+        "tags": ["chatbot", "security", "backend", "integration"]
     }],
     "funding": {
         "channels": [
@@ -47,12 +45,6 @@
                 "type": "bank",
                 "address": "",
                 "description": "Will accept direct bank transfers. Please e-mail me for details."
-            },
-            {
-                "guid": "mypay",
-                "type": "payment-provider",
-                "address": "https://example.com/payme/@myid",
-                "description": "Pay with your debit/credit card through this gateway and setup recurring subscriptions."
             }
         ],
         "plans": [
