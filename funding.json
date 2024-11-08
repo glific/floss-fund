@@ -2,11 +2,11 @@
   "version": "v1.0.0",
   "entity": {
     "type": "organisation",
-    "role": "maintainer",
-    "name": "Glific",
+    "role": "owner",
+    "name": "Project Tech4Dev",
     "email": "radhika@projecttech4dev.org",
     "phone": "",
-    "description": "Glific is an open source platform built to cater to the needs of the social sector, enabling two-way communication.\n\nIts a Project Tech4Dev initiative, WhatsApp based chatbot, that boosts the reach and impact for NGOs.\n\nPS: This is a dummy listing.",
+    "description": "Project Tech4Dev Tech4Dev bridges the gap of limited tech resources by offering affordable open source tech platforms, senior tech talent, data governance tools and training, and community of practice.\n\nOur mission is to build and support the software, data, design companies, nonprofit partners, and foundations ecosystem, creating global social impact\n\n",
     "webpageUrl": {
       "url": "https://projecttech4dev.org",
       "wellKnown": "https://projecttech4dev.org/.well-known/funding-manifest-urls"
@@ -16,7 +16,7 @@
     {
       "guid": "glific",
       "name": "Glific",
-      "description": "Glific is an open source platform built to cater to the needs of the social sector, enabling two-way communication.\n\nIts a Project Tech4Dev initiative, WhatsApp based chatbot.\n\n",
+      "description": "Glific is an open source platform built to cater to the needs of the social sector, enabling two-way communication.\n\nIts a Project Tech4Dev initiative, WhatsApp based chatbot. Glific aims to empower social impact organisations to act decisively and quickly on grassroots information through a range of features ranging from automated responses to comprehensive analytics.\n\n",
       "webpageUrl": {
         "url": "https://glific.org",
         "wellKnown": "https://glific.org/.well-known/funding-manifest-urls"
@@ -37,79 +37,40 @@
     }
   ],
   "funding": {
-    "channels": [
-      {
-        "guid": "mybank",
-        "type": "bank",
-        "address": "",
-        "description": "Will accept direct bank transfers. Please e-mail me for details."
-      }
-    ],
-    "plans": [
-      {
-        "guid": "hosting-monthly",
-        "status": "active",
-        "name": "Hosting support",
-        "description": "This will cover the monthly server hosting costs for the projects.",
-        "amount": 250,
-        "currency": "USD",
-        "frequency": "monthly",
-        "channels": ["mybank"]
-      },
-      {
-        "guid": "developer-time",
-        "status": "active",
-        "name": "Developer compensation",
-        "description": "This will cover the cost of one developer working part-time on the projects.",
-        "amount": 1000,
-        "currency": "USD",
-        "frequency": "monthly",
-        "channels": ["mybank"]
-      },
-      {
-        "guid": "angel-plan",
-        "status": "active",
-        "name": "Goodwill plan",
-        "description": "Pay anything you wish to show your goodwill for the project.",
-        "amount": 0,
-        "currency": "USD",
-        "frequency": "one-time",
-        "channels": ["mybank"]
-      }
-    ],
-    "history": [
-      {
-        "year": 2020,
-        "income": 10000,
-        "expenses": 2000,
-        "taxes": 200,
-        "currency": "USD",
-        "description": "Started accepting donations for the first time."
-      },
-      {
-        "year": 2021,
-        "income": 15000,
-        "expenses": 5000,
-        "taxes": 500,
-        "currency": "USD",
-        "description": ""
-      },
-      {
-        "year": 2022,
-        "income": 30000,
-        "expenses": 10000,
-        "taxes": 2000,
-        "currency": "USD",
-        "description": ""
-      },
-      {
-        "year": 2023,
-        "income": 25000,
-        "expenses": 15000,
-        "taxes": 1500,
-        "currency": "USD",
-        "description": "There was a dip, but we see this improving."
-      }
-    ]
-  }
+        "channels": [
+            {
+                "guid": "axisbank",
+                "type": "bank",
+                "address": "Kandivali E,Mumbai, MH 400101",
+                "description": "Will accept direct bank transfers. Please e-mail me for details."
+            }
+        ],
+        "plans": [
+            {
+                "guid": "hosting-monthly",
+                "status": "active",
+                "name": "Hosting support",
+                "description": "Glific currently uses Google Cloud Services to host our backend server and data stores. This will cover the monthly server hosting costs for Glific projects.",
+                "amount": 500,
+                "currency": "USD",
+                "frequency": "monthly",
+                "channels": ["axisbank"]
+            },
+            {
+                "guid": "personnel-time",
+                "status": "active",
+                "name": "Personnel compensation",
+                "description": "We have experimented with emerging LLM models to provide no-code chatbot solutions to NGOs.\n\nWith powerful models in 2024,enhanced responses using RAG based models in the chatbot to our NGOs have been feasible.\n\nWe would like to build upon use cases that enable AI-enabled assessments,feedback loops,categorisation of responses,for an enriched experience for NGOs.\n\nThis will cover the cost of two full-time developers and one product manager and one data engineer on the LLM projects.",
+                "amount": 90000,
+                "currency": "USD",
+                "frequency": "yearly",
+                "channels": ["axisbank"]
+            }
+        ],
+        "history": [
+            {"year": 2021, "income": 43500, "expenses": 136500, "currency": "USD", "description": "First full year for Glific chatbot post Covid. Got funding for USD187,500 "},
+            {"year": 2022, "income": 107300, "expenses": 165400, "currency": "USD", "description": "We had a steep ramp up in terms of NGOs onboarding the chatbot platform, and the team grew to support it as well."},
+            {"year": 2023, "income": 128700, "expenses": 198500, "currency": "USD", "description": "We scaled to over 70 NGOs in India, and added team of four developers and two product managers, to support in experimenting with LLM-enabled chatbot use cases."}
+        ]
+    }
 }
